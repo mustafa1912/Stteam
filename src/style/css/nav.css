@@ -1,0 +1,38 @@
+nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand img {
+  z-index: 1;
+  position: relative;
+}
+
+.navbar-brand {
+  position: relative;
+}
+.navbar-brand::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--main-bg-color);
+  z-index: 1;
+}
+
+.btn-outline-origin {
+  color: var(--main-bg-color) !important;
+}
+@media (max-width: 1024px) {
+  .navbar-brand::before {
+    height: 30vh;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar-brand::before {
+    height: 50vh;
+  }
+}
