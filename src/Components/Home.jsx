@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Helmet } from "react-helmet";
-
-
-import '../style/css/home.css'
+// nav
 import Nav from '../Layout/Navbar'
+// style
+import  '../style/css/home.css'
 export class Home extends Component {
     render() {
         return (

@@ -22,7 +22,7 @@ function Nav() {
                                     <NavLink to='/' className="nav-link text-white" href="#">GALLERY</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to='/' className="nav-link text-white" href="#">CONTACT</NavLink>
+                                    <NavLink to='/contact' className="nav-link text-white" href="#">CONTACT</NavLink>
                                 </li>
                             </ul>
                         </div>
