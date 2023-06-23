@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "ChakraPetch";
-  src: url(../fonts/ChakraPetch-Regular.ttf);
-}
+
 
 main {
   height: 100vh;
@@ -12,7 +9,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  font-family: "ChakraPetch";
 }
 section {
   position: relative;
@@ -165,7 +161,7 @@ section.home .d-flex {
   padding: 6px 10px;
   color: #000;
 }
-.socail .item:first-child{
+.socail .item:first-child {
   justify-content: flex-end;
 }
 .socail .item {

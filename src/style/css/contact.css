@@ -1,21 +1,17 @@
-@font-face {
-  font-family: "ChakraPetch";
-  src: url(../fonts/ChakraPetch-Regular.ttf);
-}
-
 main.contact {
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: flex-end;
   background-image: url("../img/web.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  font-family: "ChakraPetch";
 }
-section {
+section.section-contact {
   position: relative;
+
 }
+
 section.home .title {
   color: #fff;
   font-size: 90px;
@@ -29,10 +25,10 @@ section.home .title {
 }
 
 .dotes-left {
-  left: -50px;
+  left: -20px;
 }
-.dotes-right{
-  right: -50px;
+.dotes-right {
+  right: -20px;
 }
 .dotes-left,
 .dotes-right {
@@ -40,8 +36,21 @@ section.home .title {
   top: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
- }
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .dotes-left,
+  .dotes-right {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .dotes-left,
+  .dotes-right {
+    display: block  ;
+  }
+}
 .dotes-left .dote,
 .dotes-right .dote {
   background: #333;

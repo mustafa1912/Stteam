@@ -3,6 +3,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 9;
 }
 
 .navbar-brand img {
@@ -28,7 +29,7 @@ nav {
 }
 @media (max-width: 1024px) {
   .navbar-brand::before {
-    height: 30vh;
+    height: 12vh;
   }
 }
 @media (min-width: 1024px) {

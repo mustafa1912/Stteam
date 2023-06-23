@@ -6,7 +6,7 @@ function Breadcrumb() {
             <div className='breadcrumb position-relative pt-5 pb-5'>
                 <div className='container w-100'>
                     <div className='row'>
-                        <div className='col-3 d-flex justify-content-around align-items-center'>
+                        <div className='col-2 d-flex justify-content-around align-items-center'>
                             <div className='dote'></div>
                             <div className='dote'></div>
                             <div className='dote'></div>
@@ -16,7 +16,7 @@ function Breadcrumb() {
                             <div className='dote'></div>
                             <div className='dote'></div>
                         </div>
-                        <div className='col-9'>
+                        <div className='col-10'>
                             <h1 className='text-light'>
                                 our<strong>  contacts </strong>
                             </h1>
